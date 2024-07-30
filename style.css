@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	 font-family: "Poppins", sans-serif;
+}
+.header{
+	height: 100vh;
+	width: 100%;
+/*	background-color:rgba(0, 0, 0, 0.5);*/
+}
+.name{
+	height: 50px;
+	width: 100%;
+	background-color: brown;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.name p{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+.name span{
+	color: orange;
+}
+.home{
+	height: 80%;
+	width: 100%;
+	background-image: url(img1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.fast{
+/*	height: 500px;
+	width: 500px;*/
+/*	border: 2px solid white;*/
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 3%;
+	margin-right: 10%;
+	color: white;
+}
+.fast h2{
+	font-size: 30px;
+}
+.fast h1{
+	font-size: 50px;
+
+}
+.home form{
+	height: 530px;
+	width: 28%;
+	background-color: red;
+	color: white;
+	
+}
+form h2{
+	margin: 5%;
+	text-align: center;
+	margin-bottom: 0;
+}
+form p{
+	text-align: center;
+}
+form .field{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 5%;
+	margin-left: 10%;
+
+}
+form input{
+	padding: 10px;
+	width: 70%;
+
+}
+form button{
+	margin: 2%;
+	padding: 10px;
+	width: 70%;
+	margin-left: 12%;
+	background-color: orange;
+	color: white;
+	border: none;
+}
+.footer{
+	height: 300px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+.footer h1{
+	padding-top: 20px;
+	color: orange;
+}
+.footer span{
+	color: brown;
+}
+.footer h4{
+	font-size: 15px;
+	padding: 20px;
+}
+.footer p{
+	padding: 20px;
+}
+
+@media (max-width:994px)
+{
+	form p{
+		font-size: 18px;
+	}
+}
+
+
+@media (max-width:810px)
+{
+	.home .fast h2{
+		font-size: 25px;
+		margin-left: 10px;
+	}
+	.home .fast h1{
+		font-size: 35px;
+		margin-left: 10px;
+	}
+	.home form{
+		width: 38%;
+		margin-right: 10px;
+	}
+	.footer{
+		height: 350px;
+	}
+}
+@media (max-width:420px)
+{
+	.name p{
+		font-size: 10px;
+	}
+	.home{
+		flex-direction: column;
+	}
+	.home .fast h2{
+		font-size: 20px;
+	}
+	.home .fast h1{
+		font-size: 25px;
+	}
+	.home form{
+		height: 450px;
+		width: 70%;
+	}
+	.home form h2{
+		font-size: 20px;
+	}
+	.home form p{
+		font-size: 15px;
+	}
+	.home form input{
+		margin: 10px;
+		width: 80%;
+	}
+	.footer{
+		height: 400px;
+	}
+	.footer h1{
+		font-size: 30px;
+	}
+	.footer h4{
+		font-size: 18px;
+	}
+	.footer p{
+		font-size: 10px;
+	}
+}
+
+
+
